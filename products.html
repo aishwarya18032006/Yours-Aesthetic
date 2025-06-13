@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Products</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr); /* 4 per row */
+      gap: 30px;
+      padding: 40px;
+    }
+
+    .product {
+      background: rgba(255, 255, 255, 0.9);
+      padding: 20px;
+      border-radius: 15px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .product img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .product h3 {
+      margin: 10px 0 5px;
+      font-size: 18px;
+    }
+
+    .product p {
+      font-weight: bold;
+      color: #333;
+    }
+
+    @media (max-width: 992px) {
+      .product-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 576px) {
+      .product-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="head">
+    <nav class="button">
+      <a href="index.html">HOME</a>
+      <a href="about.html">ABOUT</a>
+      <a href="products.html">PRODUCTS</a>
+      <a href="contact.html">CONTACT</a>
+    </nav>
+    <div class="main">
+      <h1>Our Products</h1>
+    </div>
+
+    <div class="product-grid">
+      <!-- 16 Phone Cases -->
+      <div class="product">
+        <img src="img1.jpeg" alt="Phone Case 1" />
+        <h3>Phone Case #1</h3>
+        <p>₹299</p>
+    </div>
+      <div class="product">
+        <img src="img2.jpeg" alt="Phone Case 2" />
+        <h3>Phone Case #2</h3>
+        <p>₹349</p>
+    </div>
+      <div class="product">
+        <img src="img3.jpeg" alt="Phone Case 3" />
+        <h3>Phone Case #3</h3>
+        <p>₹399</p>
+    </div>
+      <div class="product">
+        <img src="img4.jpeg" alt="Phone Case 4" />
+        <h3>Phone Case #4</h3>
+        <p>₹279</p>
+    </div>
+
+      <div class="product">
+        <img src="img5.jpeg" alt="Phone Case 5" />
+        <h3>Phone Case #5</h3>
+        <p>₹249</p>
+    </div>
+      <div class="product">
+        <img src="img6.jpeg" alt="Phone Case 6" />
+        <h3>Phone Case #6</h3>
+        <p>₹319</p>
+    </div>
+      <div class="product">
+        <img src="img7.jpeg" alt="Phone Case 7" />
+        <h3>Phone Case #7</h3>
+        <p>₹289</p>
+    </div>
+      <div class="product">
+        <img src="img8.jpeg" alt="Phone Case 8" />
+        <h3>Phone Case #8</h3>
+        <p>₹359</p>
+    </div>
+
+      <div class="product">
+        <img src="img9.jpeg" alt="Phone Case 9" />
+        <h3>Phone Case #9</h3>
+        <p>₹269</p>
+    </div>
+      <div class="product">
+        <img src="img10.jpeg" alt="Phone Case 10" />
+        <h3>Phone Case #10</h3>
+        <p>₹379</p>
+    </div>
+      <div class="product">
+        <img src="img11.jpeg" alt="Phone Case 11" />
+        <h3>Phone Case #11</h3>
+        <p>₹299</p>
+    </div>
+      <div class="product">
+        <img src="img12.jpeg" alt="Phone Case 12" />
+        <h3>Phone Case #12</h3>
+        <p>₹349</p>
+    </div>
+
+      <div class="product">
+        <img src="img13.jpeg" alt="Phone Case 13" />
+        <h3>Phone Case #13</h3>
+        <p>₹319</p>
+    </div>
+      <div class="product">
+        <img src="img14.jpeg" alt="Phone Case 14" />
+        <h3>Phone Case #14</h3>
+        <p>₹289</p>
+    </div>
+      <div class="product">
+        <img src="img15.jpeg" alt="Phone Case 15" />
+        <h3>Phone Case #15</h3>
+        <p>₹369</p>
+    </div>
+      <div class="product">
+        <img src="img16.jpeg" alt="Phone Case 16" />
+        <h3>Phone Case #16</h3>
+        <p>₹399</p>
+    </div>
+    </div>
+  </div>
+</body>
+</html>
